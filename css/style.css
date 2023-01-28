@@ -1,0 +1,114 @@
+body{
+    /*background-image: url("/imgs/fondo_prueba.jpg");
+    background-position: 0px;*/
+    background: linear-gradient(#06283D,#256D85) ;
+    /*border-style: solid;*/
+    margin: 25px;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: large;
+    
+}
+#nombre_ap{
+    text-align: center;
+}
+
+header{
+    background-color: #06283D;
+    color: black;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    float: left;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.inicio{
+    color: white;
+    cursor: pointer;
+}
+section{
+    padding: 50px;
+    scroll-margin-top: 70px;
+}
+#foto_cv{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#logo{
+    width: 600px;
+    height: 200px;
+}
+
+#empleo, #formacion, #cursos, #datos_de_contacto{
+    border-top-style: groove;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+}
+.form-titulo{
+    text-align: center;
+    margin-top: 0px;
+}
+.form{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+.form_submit, .form_label, .form_input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.form_input{
+    padding: 12px;
+    border: 1px solid;
+}
+.form_submit{
+    padding: 12px;
+    margin-left: 13px;
+}
+footer{
+    border-top-style: groove;
+    /*background-color: #256D85;*/
+
+}
+#redes_texto{
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+}
+
+.red{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
